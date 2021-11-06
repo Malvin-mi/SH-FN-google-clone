@@ -1,0 +1,12 @@
+#search{
+    width: 26px;
+    height: 44px;
+    position: absolute;
+    right:16px;
+    background:url("mic.svg") center no-repeat;
+    background-size:21px 21px;
+    border-radius:2px;
+    cursor:pointer;
+    border:none;
+    padding:0px;
+}
