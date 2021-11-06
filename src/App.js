@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import SearchBox from './Components/SearchBox/SearchBox';
 import './App.css';
-import ShortcutWidgets from "./components/shortcut-widgets/ShortcutWidgets";
+import ShortcutWidgets from "./Components/shortcut-widgets/ShortcutWidgets";
 
 function App() {
   // To be used in changing Logo text
@@ -11,10 +11,11 @@ function App() {
   return (
     <div className="App">
       <SearchBox onSearchChange={updateLogo}/>
-    </div>
-     <div>
+      <div>
          <ShortcutWidgets />
       </div>
+    </div>
+    
   );
 }
 

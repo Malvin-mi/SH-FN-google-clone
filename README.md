@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Team Fire Nation Google  homepage clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was given by the side hustle react mentors.
+## Project breakdown.
+1. Using React JS clone the google homepage.
+1. change the google logo to the side hustle logo.
+1. Document your code.
+1. Write a blogpost on your experience so far.
 
-## Available Scripts
+**This is a team project thus required gitHub collaboration**
 
-In the project directory, you can run:
+The first thing to do is to clone this repo to your local machine.
+use the command 
 
-### `yarn start`
+> git clone https://github.com/Malvin-mi/SH-FN-google-clone.git
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+You would then run 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+> yarn install or npm install
 
-### `yarn test`
+to install any dependecies. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Then you can run;
 
-### `yarn build`
+> yarn start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+to view on your localhost.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The next step would be to create branch where you push your work to. You would need to reach out to me to give you access.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+In your terminal, to create new branch;
 
-### `yarn eject`
+> git checkout -b featurename
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Then you can carry out your work. To prevent any conflicts, everyone would create components for their features and then import it to the `app.js` file.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To import your component;
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+> `import ComponentName from ./component path`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+after you are done, you push your work to your branch.
 
-## Learn More
+> git push -u origin featurename
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Then submit a pull request to the main branch from your branch.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Upon merging, for submission sake we would run 
 
-### Code Splitting
+>yarn build 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+and host the build folder.
 
-### Analyzing the Bundle Size
+ ### ***The code would be hosted on  either netlify or vercel***
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+ Hosted site would be shared soon.
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
