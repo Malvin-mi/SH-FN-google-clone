@@ -1,6 +1,7 @@
 import React from 'react'
 import './searchbox.css';
-const SearchBox = () => {
+
+const SearchBox = ({onSearchChange}) => {
     return (
         <div id="search">
             <input 
@@ -8,6 +9,8 @@ const SearchBox = () => {
                 type='text' 
                 autoFocus="true"
                 autoComplete="off"
+                maxLength="2048"
+                onChange={onSearchChange}
             />
             <span id="search-icon"></span>
             <button id="search-voice-btn"></button>
