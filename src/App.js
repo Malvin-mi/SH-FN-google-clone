@@ -1,12 +1,13 @@
 
 import './App.css';
+import ShortcutWidgets from "./components/shortcut-widgets/ShortcutWidgets";
 
 function App() {
-  return (
-    <div className="App">
-     
-    </div>
-  );
+   return (
+      <div>
+         <ShortcutWidgets />
+      </div>
+   );
 }
 
 export default App;

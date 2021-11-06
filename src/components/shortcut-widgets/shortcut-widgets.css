@@ -1,0 +1,41 @@
+
+.parent {
+	display: flex;
+	justify-content: center;
+}
+.shortcut-box {
+	display: flex;
+	max-width: 448px;
+	width: 100%;
+	flex-wrap: wrap;
+}
+.content-box {
+	text-align: center;
+	width: calc(100% / 5);
+	border-radius: 4px;
+	padding: 10px;
+	margin-right: 20px;
+}
+.content-box:hover {
+	background-color: rgb(230, 229, 229);
+	box-shadow: 3px 3px 5px 0px rgba(184, 182, 182, 0.75);
+	-webkit-box-shadow: 3px 3px 5px 0px  rgba(184, 182, 182, 0.75);
+	-moz-box-shadow: 3px 3px 5px 0px  rgba(184, 182, 182, 0.75);
+}
+.icon-box {
+	background-color: rgba(201, 198, 198, 0.822);
+	border-radius: 50%;
+	margin: auto;
+	height: 45px;
+	width: 45px;
+	text-overflow: ellipsis;
+}
+.icon-box img {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	padding: 5px;
+}
+p {
+	margin-top: 5px;
+}
