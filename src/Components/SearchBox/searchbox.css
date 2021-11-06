@@ -1,0 +1,42 @@
+#search{
+    position:relative;
+    width: 561px;
+    height: 44px;
+    border: 1px solid #dfe1e5;
+    background: #fff;
+    border-radius: 24px;
+}
+
+#search-voice-btn{
+    width: 26px;
+    height: 44px;
+    position: absolute;
+    right:16px;
+    background:url("mic.svg") center no-repeat;
+    background-size:21px 21px;
+    border-radius:2px;
+    cursor:pointer;
+    border:none;
+    padding:0px;
+}
+
+#search-input{
+    width: 100%;
+    height: 42px;
+    padding-left:52px;
+    padding-right:44px;
+    border:none;
+    outline:none;
+    border-radius:calc(0.5*44px);
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+}
+
+#search-icon{
+    width: 26px;
+    height: 44px;
+    position: absolute;
+    left:12px;
+    background:url("search.svg") center no-repeat;
+    background-size:24px 24px;
+}
