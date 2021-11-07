@@ -1,0 +1,126 @@
+@media screen {
+    .footer{
+        background: #F2F2F2;
+        box-sizing: border-box;
+        flex-shrink: 0;
+        height: 98px;
+    }
+    
+    #bl-1{
+        color: #70757a;
+        border-bottom: 1px solid #dadce0;
+        padding: 15px 30px;
+        font-size:15px;
+        text-align: left;
+        height: 48px;
+    }
+    
+    #bl-2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0 20px;
+        height: 50px;
+        /* column-gap: 10px; */
+    }
+    
+    .bl-2-{
+        display: flex;
+        flex-wrap: wrap;
+        min-width: 30%;
+    }
+    
+    .footer-link{
+        color: #70757a;
+        padding: 15px;
+        text-decoration: none;
+        white-space: nowrap;
+        width: auto;
+        height: 50px;
+        display:block;
+        /* justify-content: center; */
+    }
+    
+    .footer-link:hover, .footer-link:active{
+        text-decoration: underline;
+    }
+    
+    #bl-2-1{
+        justify-content: flex-start;
+        order:2;
+        flex-wrap: nowrap;
+        /* align-self: flex-end; */
+    }
+    #bl-2-2{
+        display: inline-block;
+        width:213px;
+        order:2;
+        /* justify-content: ; */
+        /* flex-grow:10; */
+    }
+    
+    #bl-2-3{
+        justify-content: flex-end;
+        order:3;
+        flex-wrap: nowrap;
+        /* flex-grow:3; */
+        max-width: min-content;
+        /* align-self: flex-end; */
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .footer{
+        height: 141px;
+        font:10px;
+        width:100vw;
+        
+    }
+
+    #bl-2{
+        display: flex;
+        height: calc(141px - 48px);
+        justify-content: space-evenly;
+    }
+
+    #bl-2-1{
+        min-width: 30%;
+    }
+
+    #bl-2-2{
+        align-self: flex-start;
+        order:0;
+        width:100%;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 693px){
+    .footer{
+        width:100vw;
+        /* height: 100vh; */
+        margin: 0;
+        height: 200px;
+        /* font-size: 60%; */
+    }
+
+    /* #bl-2{
+        height: calc(234px - 48px);
+        justify-content:center;
+        flex-wrap: wrap;
+    } */
+
+    #bl-2{
+        display: flex;
+        height: calc(141px - 48px);
+        justify-content: space-evenly;
+        /* flex-wrap: wrap-reverse; */
+    }
+
+    #bl-2-2{
+        align-self: flex-start;
+        order:0;
+        width:100%;
+        justify-content: center;
+    }
+}
