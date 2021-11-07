@@ -1,6 +1,10 @@
-#search{
+#searchbox{
+    max-width: 584px;
+    width: auto;
+}
+
+#searchbox-input{
     position:relative;
-    width: 561px;
     height: 44px;
     border: 1px solid #dfe1e5;
     background: #fff;
@@ -39,4 +43,35 @@
     left:12px;
     background:url("search.svg") center no-repeat;
     background-size:24px 24px;
+}
+
+.sb-btn{
+    border: 1px solid #f8f9fa;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sb-btn:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    color: #202124;
+    border: 1px solid #dadce0;
+}
+
+.sb-btn:focus{
+    border: 1px solid #4285f4;
+    outline: none;
+}
+
+#searchbox-btns{
+    height: 70px;
+    padding-top:18px;
+    top:53px;
+    z-index:0;
 }
