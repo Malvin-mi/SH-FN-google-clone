@@ -10,7 +10,7 @@ function App() {
   const updateLogo = (event) => setLogo(event.target.value);
 
   return (
-    <div className="App">
+     <div className="App">
       <SearchBox onSearchChange={updateLogo}/>
       <div>
          <ShortcutWidgets />
