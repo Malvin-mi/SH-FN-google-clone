@@ -57,6 +57,13 @@ img{
 
 }
 
+@media screen and (max-width: 450px) {
+    img {
+        width: 300px;
+        height: 50px;
+    }
+}
+
 `;
 
 const Search = styled.div`
